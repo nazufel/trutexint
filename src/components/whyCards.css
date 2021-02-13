@@ -1,0 +1,16 @@
+.whyCardIcon {
+  fill: gray;
+  font-size: 150px;
+}
+
+.whyCardItem {
+  width: 33%;
+  height: auto;
+  padding: 5px;
+}
+
+
+.whyCardsDirectory {
+  display: flex;
+  
+}

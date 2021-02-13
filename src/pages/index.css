@@ -1,0 +1,18 @@
+.markOfQuality {
+  color: purple;
+}
+
+.phoneCallButton {
+  display: inline-flex;
+  justify-content: flex-end;
+}
+
+.phoneCallFunnel {
+  display: inline-flex;
+  justify-content: space-between
+}
+
+.phoneCallText {
+  display: inline-flex;
+  justify-content: flex-start;
+}
