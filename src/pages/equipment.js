@@ -1,7 +1,7 @@
 import React from "react"
 
 import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button'
+import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
@@ -36,11 +36,11 @@ export default function EquipmentPage() {
   return (
     <Layout>
       <SEO title="Equipment" />
-      <Typography style={{ marginTop: 15, paddingBottom: 10 }} variant="h4">
+      <Typography style={{ marginTop: 20, marginBottom: 20 }} variant="h4">
         The Best Toolmakers Need the Best Equipment
       </Typography>
 
-      <Grid container spacing={2} style={{ padding: 20 }} justify="float-left">
+      <Grid container spacing={2} justify="float-left">
         <Grid item xs={12} sm={6} lg={4}>
           <Card className={classes.root}>
             <CardMedia 
@@ -180,11 +180,10 @@ export default function EquipmentPage() {
         </Grid>
       </Grid>
 
-      <div className="equipment-call-to-action" style={{ display: "flex", justifyContent: "space-between", marginBottom: 15 }}>
-        <Typography variant="h4">
+      <div className="equipment-call-to-action" style={{ display: "flex", justifyContent: "space-between", marginBottom: 20, marginTop: 20 }}>
+        <Typography variant="h5">
           Our Expert Toolmakers Are Ready for Your Project
         </Typography>
-        {/* <div className="equipment-call-to-action-button" style={{ alignSelf: "right"}}> */}
           <Button 
             color="primary"
             href="/contact"
@@ -192,8 +191,6 @@ export default function EquipmentPage() {
           >
             Contact Us
           </Button>
-        {/* </div> */}
-
       </div>
 
     </Layout>

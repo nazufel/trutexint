@@ -10,3 +10,5 @@ Gatsby code for the TRU-TEX International Corporation Website
 * link on contact page needs to open in another window.
 * equipment cards need to float center on xs
 * equipment call to action needs to scale with the breakpoints
+* about page "This is the mark of quality" needs to be colorized from the global theme
+* all content inside of the appbar and footer need a left and right padding of 20px

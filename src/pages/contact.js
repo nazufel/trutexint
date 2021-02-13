@@ -32,11 +32,11 @@ export default function ContactPage() {
   return (
     <Layout>
       <SEO title="Contact" />
-      <Typography style={{ marginTop: 15 }} variant="h4">
+      <Typography style={{ marginTop: 20, marginBottom: 20 }} variant="h4">
         Contact Us
       </Typography>
 
-      <Grid container spacing={2} style={{ padding: 20 }}>
+      <Grid container spacing={2}>
         <Grid container item xs={12} sm={6}>
           <Card className={classes.root}>
             <CardContent>

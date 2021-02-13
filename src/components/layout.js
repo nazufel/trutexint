@@ -46,8 +46,8 @@ const Layout = ({ children }) => {
   <ThemeProvider theme={theme}>
     <Container maxWidth="lg">
       <SiteAppBar />
-      <main>{children}</main>
-        <SubFooter/>
+      <main style={{ paddingRight: 20, paddingLeft: 20}}>{children}</main>
+      <SubFooter/>
     </Container>
   </ThemeProvider>
 

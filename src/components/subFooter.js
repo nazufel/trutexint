@@ -15,7 +15,7 @@ function Copyright() {
     </Typography>
 
   );
-}
+};
 
 function Hosting() {
   return (
@@ -27,7 +27,7 @@ function Hosting() {
     </Typography>
 
   );
-}
+};
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -43,8 +43,6 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(3, 2),
     backgroundColor:
     theme.palette.secondary.main,
-    // backgroundColor:
-    //   theme.palette.type === 'light' ? theme.palette.grey[200] : theme.palette.grey[800],
   },
 }));
 
@@ -52,7 +50,7 @@ export default function SubFooter() {
   const classes = useStyles();
 
   return (
-    <footer className={classes.footer}>
+    <footer className={classes.footer} style={{ marginTop: 20}}>
       <Grid container direction="row" justify="center">
         <Grid item xs={12}>
           <Copyright /> 
