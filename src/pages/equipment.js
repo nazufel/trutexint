@@ -36,7 +36,7 @@ export default function EquipmentPage() {
   return (
     <Layout>
       <SEO title="Equipment" />
-      <Typography style={{ padding: 10 }} variant="h4">
+      <Typography style={{ marginTop: 15, paddingBottom: 10 }} variant="h4">
         The Best Toolmakers Need the Best Equipment
       </Typography>
 

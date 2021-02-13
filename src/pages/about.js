@@ -5,15 +5,17 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import officeBuildingImage from "../images/officeBuildingImage.jpg"
+import { Typography } from "@material-ui/core"
 
 const AboutPage = () => (
 
   <Layout>
     <SEO title="About" />
-      <br />
-      <h1>About TRU-TEX International Corporation</h1>
+      <Typography style={{ marginTop: 15, paddingBottom: 15 }} variant="h4">
+        About
+      </Typography>
 
-      <img src={ officeBuildingImage } alt="building" />
+      <img src={ officeBuildingImage } alt="building" align="left" style={{ paddingLeft: 20, paddingRight: 10, paddingBottom: 10, width: 400, height: 480 }}/>
 
       <br />
       <p>TRU-TEX International Corporation was founded in 1960 in Cincinnati, Ohio. We are a family-owned business that is now in our fourth generation. Through good times and bad, TRU-TEX is here to stay.</p>
