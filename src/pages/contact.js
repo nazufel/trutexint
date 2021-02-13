@@ -40,7 +40,7 @@ export default function ContactPage() {
         <Grid container item xs={12} sm={6}>
           <Card className={classes.root}>
             <CardContent>
-              <Typography style={{ marginTop: 15 }} variant="h5">
+              <Typography color="primary" style={{ marginTop: 15 }} variant="h5">
                 We Want to Talk to You
               </Typography>
             </CardContent>
@@ -60,7 +60,7 @@ export default function ContactPage() {
               <FontAwesomeIcon icon={ faMapMarkerAlt } className={classes.icon}/>
               <Typography variant="h6">
                 <Link color='inherit' href="https://goo.gl/maps/3FVEKB7WHeJPrjzUA">
-                11050 Southland Road Cincinnati, Ohio 45240
+                  <u>11050 Southland Road Cincinnati, Ohio 45240</u>
                 </Link>
               </Typography>
             </CardContent>
@@ -75,7 +75,7 @@ export default function ContactPage() {
         <Grid container item xs={12} sm={6} justify="float-center">
         <Card>
           <CardContent>
-            <Typography style={{ marginTop: 15 }} variant="h5">
+            <Typography color="primary" style={{ marginTop: 15 }} variant="h5">
               Send Us a Message!
             </Typography>
             <ContactForm />
