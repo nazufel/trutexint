@@ -13,7 +13,7 @@ import { ThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import 'fontsource-roboto';
 
-// import Footer from './footer';
+import './layout.css';
 import SubFooter from './subFooter';
 import SiteAppBar from '../components/siteAppBar';
 
@@ -47,10 +47,7 @@ const Layout = ({ children }) => {
     <Container maxWidth="lg">
       <SiteAppBar />
       <main>{children}</main>
-      {/* <Footer /> */}
-      <div  style={{ margin: 0, bottom: 0, paddingTop: 15}}>
         <SubFooter/>
-      </div>
     </Container>
   </ThemeProvider>
 

@@ -52,17 +52,15 @@ export default function SubFooter() {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-      <footer className={classes.footer}>
-        <Grid container direction="row" justify="center">
-          <Grid item xs={12}>
-            <Copyright /> 
-          </Grid>
-          <Grid item xs={12}>
-           <Hosting />
-          </Grid>
+    <footer className={classes.footer}>
+      <Grid container direction="row" justify="center">
+        <Grid item xs={12}>
+          <Copyright /> 
         </Grid>
-      </footer>
-    </div>
+        <Grid item xs={12}>
+         <Hosting />
+        </Grid>
+      </Grid>
+    </footer>
   );
 }
