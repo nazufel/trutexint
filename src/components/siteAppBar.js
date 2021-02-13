@@ -27,7 +27,7 @@ export default function SiteAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography href="/" variant="h6" className={classes.title}>
+          <Typography variant="h6" className={classes.title}>
             TRU-TEX
           </Typography>
           <Button color="inherit" href="/">Home</Button>

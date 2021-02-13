@@ -21,7 +21,7 @@ function Hosting() {
   return (
     <Typography align="center" variant="body2" color="textSecondary">
       {'Designed and Hosted by '}
-      <Link color="inherit" href="https://gitlab.com/nazufel">
+      <Link color="inherit" href="https://github.com/nazufel">
         Nazufel
       </Link>{' '}
     </Typography>
