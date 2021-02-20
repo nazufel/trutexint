@@ -34,7 +34,7 @@ export default function AboutPage() {
         </Typography>
         <br/>
         <Typography>
-          Our mission is to improve our products continuously in order to meet the ever-growing needs of our customers. We know that our customers' success is our success and we tirelessly pursue the
+          Our mission is to improve our products continuously in order to meet the ever-growing needs of our customers. The success of our customers is our success. We tirelessly pursue the latest technology, lean
         </Typography>
         <br/>
         <Typography color="primary" variant="h5" component="h2">
@@ -46,8 +46,7 @@ export default function AboutPage() {
         </Typography>
         <br/>
         <Typography variant="body1">
-          We are a leading manufacturer of precision die components dedicated to the continuous improvement of our customers' metal forming operations. Using the latest technology, lean manufacturing, 
-          and employing highly skilled toolmakers, we provide the highest quality tooling available at competitive prices and lead times.
+          We are a leading manufacturer of precision die components dedicated to the continuous improvement of our customers' metal forming operations. Using the latest technology, lean manufacturing, and employing highly skilled toolmakers, we provide the highest quality tooling available at competitive prices and lead times.
         </Typography>
         <br/>
         <Typography variant="body1">
@@ -59,7 +58,7 @@ export default function AboutPage() {
         </Typography>
         <br/>
         <Typography variant="body1">
-          Our customers' success is our success. We believe that everything that goes out of our doors should be of the highest quality to where we are proud to put our stamp on it. We focus on producing the highest quality tooling available for your metal-forming operations. Only the highest quality products leave our shop. Our customers get products we are proud to put our mark on.
+          We believe that everything that goes out of our doors should be of the highest quality and we are proud to put our mark on it. We focus on producing the highest quality tooling available for your metal-forming operations. Only the highest quality products leave our shop. Our customers get products we are proud to put our mark on.
         </Typography>
         <br/>
         <Typography>
