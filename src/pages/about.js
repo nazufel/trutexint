@@ -1,8 +1,7 @@
 import React from "react";
-import Button from '@material-ui/core/Button';
-
 import Layout from "../components/layout";
 import { makeStyles } from '@material-ui/core/styles';
+import CallToAction from '../components/callToAction';
 import SEO from "../components/seo";
 
 import officeBuildingImage from "../images/officeBuildingImage.jpg";
@@ -53,6 +52,12 @@ export default function AboutPage() {
           We can take a process and improve it through quality, innovation, and technology.
         </Typography>
         <br/>
+        <CallToAction
+          actionText="See Our Latest Equipment"
+          actionLink="/equipment"
+          buttonText="Equipment"
+        />
+        <br/>
         <Typography color="primary" variant="h5" component="h2">
           The Mark of Quality Difference
         </Typography>
@@ -65,18 +70,11 @@ export default function AboutPage() {
           This is the <span color="primary">Mark of Quality</span>
         </Typography>  
         <br/>
-        <div className="equipment-call-to-action" style={{ display: "flex", justifyContent: "space-between", marginBottom: 15, paddingRight: 20 }}>
-          <Typography variant="h5">
-            Let Us Put Our Mark of Quality on Your Next Project
-          </Typography>
-          <Button 
-            color="primary"
-            href="/contact"
-            variant="contained" 
-          >
-            Contact Us
-          </Button>
-        </div>
+        <CallToAction
+          actionText="Let Us Put Our Mark of Quality on Your Next Project"
+          actionLink="/contact"
+          buttonText="Contact Us"
+        />
     </Layout>
   );
 }
