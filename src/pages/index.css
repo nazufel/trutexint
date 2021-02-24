@@ -16,3 +16,45 @@
   display: inline-flex;
   justify-content: flex-start;
 }
+
+.parallax-wire-edm {
+  /* The image used */
+  background-image: url("../images/wire-edm-01.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-cnc {
+  /* The image used */
+  background-image: url("../images/CNCMachine.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-surface-grinding {
+  /* The image used */
+  background-image: url("../images/surfaceGrindingMachine.jpg");
+
+  /* Set a specific height */
+  height: 500px;
+  
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

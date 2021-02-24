@@ -13,7 +13,7 @@ import Typography from '@material-ui/core/Typography';
 import CallToAction from '../components/callToAction';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import WireEdm from '../images/wire-edm-03.jpg';
+import WireEdm from '../images/wire-edm-01.jpg';
 import CNCMachine from '../images/CNCMachine.jpg';
 import GrindingMachine from '../images/surfaceGrindingMachine.jpg';
 import MillingMachine from '../images/millingMachine.jpg';

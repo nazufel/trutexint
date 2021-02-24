@@ -1,8 +1,6 @@
 import React from "react"
 import { Link } from 'gatsby'
 
-
-// import Carousel from "../components/carousel"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -12,8 +10,14 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <br />
-    {/* <Carousel /> */}
+    <div className="parallax-wire-edm"></div>
+    <div className="phoneCallFunnel flex-container">
+        <h3 className="phoneCallText">Your Next Project Is a Phone Call Away.</h3>
+        <Link to="/contact">Contact Us</Link>
+    </div>
+
+    <div className="parallax-cnc"></div>
+    <div className="parallax-surface-grinding"></div>
 
     <br />
     <div className="phoneCallFunnel flex-container">
