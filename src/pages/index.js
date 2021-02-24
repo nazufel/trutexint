@@ -38,7 +38,12 @@ const IndexPage = () => (
       actionLink="/equipment"
       buttonText="Equipment"
     />
-
+    <div className="parallax-milling"></div>
+    <CallToAction
+      actionText="Ready to Get Started?"
+      actionLink="/contact"
+      buttonText="Contact Us"
+    />
   </Layout>
 )
 
