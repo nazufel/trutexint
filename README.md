@@ -16,3 +16,5 @@ Gatsby code for the TRU-TEX International Corporation Website
 * set validation on form fields
 * set character limit on form fields
 * finish mission statement
+* componentize the parallax effects on the index page
+* experiment with the site container size
