@@ -44,10 +44,10 @@ const theme = createMuiTheme({
 const Layout = ({ children }) => {
   return (
   <ThemeProvider theme={theme}>
-    <Container maxWidth="lg">
+    <Container>
       <SiteAppBar />
       <body>
-        <main style={{ paddingRight: 20, paddingLeft: 20}}>{children}</main>
+        <main style={{ padding: 0, margin: 0 }}>{children}</main>
       </body>
       <SubFooter/>
     </Container>
