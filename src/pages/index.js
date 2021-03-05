@@ -1,5 +1,7 @@
-import { Typography } from "@material-ui/core";
 import React from "react"
+
+import Button from '@material-ui/core/Button';
+import { Typography } from "@material-ui/core";
 
 import CallToAction from '../components/callToAction';
 import FrontPageLayout from "../components/frontPageLayout"
@@ -12,14 +14,24 @@ const IndexPage = () => (
     <SEO title="Home" />
 
     <div className="parallax-wire-edm" />
-    <Typography variant="h5" style={{ margin: 20 }}>
-      We are a leading manufacturer of precision die components dedicated to the continuous improvement of our customer’s metal forming operations.
+    <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
+    <Typography variant="h3" style={{}}>
+      Leaders in Precision Wire EDM Manufacturing
     </Typography>
-    <CallToAction
-      actionText="Your Next Project Is a Phone Call Away"
-      actionLink="/contact"
-      buttonText="Get Started"
-    />
+    <Typography variant="h2" style={{ margin: 20 }}>
+      Learn About Our Four Generations of Experience
+    </Typography>
+    <div>
+      <Button 
+          color="primary"
+          href="/about"
+          variant="contained" 
+        >
+          About Us
+        </Button>
+    </div>
+    </div>
+
     <div className="parallax-cnc" />
     <CallToAction
       actionText="Quality Is in Our History"

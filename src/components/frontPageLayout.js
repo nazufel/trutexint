@@ -41,16 +41,13 @@ const theme = createMuiTheme({
 
 export default function FrontPageLayout({ children }) {
   return (
-  <ThemeProvider theme={theme}>
-    {/* <Container maxWidth="lg"> */}
+    <ThemeProvider theme={ theme }>
       <SiteAppBar />
       <body>
-        <main style={{ padding: 0, margin: 0 }}>{children}</main>
+        <main style={{ padding: 0, margin: 0 }}>{ children }</main>
       </body>
       <SubFooter/>
-    {/* </Container> */}
-  </ThemeProvider>
-
+    </ThemeProvider>
   );
 }
 
