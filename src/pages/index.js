@@ -15,11 +15,11 @@ const IndexPage = () => (
 
     <div className="parallax-wire-edm" />
     <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
-    <Typography variant="h3" style={{}}>
-      Leaders in Precision Wire EDM Manufacturing
+    <Typography variant="h3" color="primary">
+      Leaders in Precision Wire EDM
     </Typography>
     <Typography variant="h2" style={{ margin: 20 }}>
-      Learn About Our Four Generations of Experience
+      Put Our Four Generations of Experience on Your Next Project
     </Typography>
     <div>
       <Button 
@@ -33,11 +33,23 @@ const IndexPage = () => (
     </div>
 
     <div className="parallax-cnc" />
-    <CallToAction
-      actionText="Quality Is in Our History"
-      actionLink="/about"
-      buttonText="About Us"
-    />
+    <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
+    <Typography variant="h3" color="primary">
+      We Use the Latest Technology in Tool and Die Manufacturing
+    </Typography>
+    <Typography variant="h2" style={{ margin: 20 }}>
+      Learn About Our Advanced Equipment for Your Next Project
+    </Typography>
+    <div>
+      <Button 
+          color="primary"
+          href="/equipment"
+          variant="contained" 
+        >
+          Equipment
+        </Button>
+    </div>
+    </div>
     <div className="parallax-surface-grinding" />
     <CallToAction
       actionText="Our Technology Is Ready for Your Next Project"
