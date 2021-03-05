@@ -27,14 +27,10 @@ export default function SiteAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6" className={classes.title}>
-            TRU-TEX
-          </Typography>
-          <Button color="inherit" href="/">Home</Button>
-          <Button color="inherit" href="/about">About Us</Button>
-          <Button color="inherit" href="/equipment">Equipment</Button>
-          <Button color="inherit" href="/contact">Contact</Button>
-
+          <Button color="inherit" size="large" href="/">TRU-TEX</Button>
+          <Button color="inherit" size="small" href="/about">About Us</Button>
+          <Button color="inherit" size="small" href="/equipment">Equipment</Button>
+          <Button color="inherit" size="small" href="/contact">Contact</Button>
         </Toolbar>
       </AppBar>
     </div>

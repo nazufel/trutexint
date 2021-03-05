@@ -8,14 +8,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import Container from '@material-ui/core/Container';
 import { ThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import 'fontsource-roboto';
 
 import './layout.css';
 import SubFooter from './subFooter';
-import SiteAppBar from '../components/siteAppBar';
+import SiteAppBar from './siteAppBar';
 
 const theme = createMuiTheme({
   typography: {
@@ -40,24 +39,22 @@ const theme = createMuiTheme({
   }
 })
 
-
-const Layout = ({ children }) => {
+export default function FrontPageLayout({ children }) {
   return (
   <ThemeProvider theme={theme}>
-    <SiteAppBar />
-    <Container maxWidth="lg">
+    {/* <Container maxWidth="lg"> */}
+      <SiteAppBar />
       <body>
         <main style={{ padding: 0, margin: 0 }}>{children}</main>
       </body>
       <SubFooter/>
-    </Container>
+    {/* </Container> */}
   </ThemeProvider>
 
-  )
+  );
 }
 
-Layout.propTypes = {
+FrontPageLayout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
