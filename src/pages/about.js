@@ -27,31 +27,31 @@ export default function AboutPage() {
         <Typography className={classes.heading} variant="h4">
           About
         </Typography>
-        <img src={ officeBuildingImage } alt="building" align="left" style={{ paddingRight: 20, paddingBottom: 10, width: 400, height: 480 }}/>
+        <img src={ officeBuildingImage } alt="building" align="left" style={{ paddingRight: 20, paddingBottom: 10, width: 400, height: 500 }}/>
         <Typography color="primary" variant="h5" component="h2">
           Our Mission
         </Typography>
         <br/>
-        <Typography>
-          Our mission is to improve our products continuously in order to meet the ever-growing needs of our customers. The success of our customers is our success. We tirelessly pursue the latest technology, lean
+        <Typography align="justify">
+          Our mission is to provide sustainable tool and die manufacturing for the ever-changing needs of our customers.
         </Typography>
         <br/>
         <Typography color="primary" variant="h5" component="h2">
           From Simple Beginnings to the Latest Technology
         </Typography>
         <br/>
-        <Typography variant="body1" style={{textAlign: "justify", textJustify: "inter-word"}}>
+        <Typography align="justify" variant="body1">
           TRU-TEX International Corporation was founded in 1960 in Cincinnati, Ohio. We are a family-owned business now in our fourth generation. Through good times and bad, TRU-TEX is here to stay.
-        </Typography>
-        <br/>
-        <Typography variant="body1">
+          <br />
+          <br />
           We are a leading manufacturer of precision die components dedicated to the continuous improvement of our customers' metal forming operations. Using the latest technology, lean manufacturing, and employing highly skilled toolmakers, we provide the highest quality tooling available at competitive prices and lead times.
+          <br />
+          <br />
+          TRU-TEX focuses on building long term relationships with our customers for their tool and die manufacturing needs. To us, our customers are not just a line in a spread sheet. We know them by name. Our customer's success is our success. Customer satisfaction is at the core of our corporate DNA. We are constantly striving for better, more efficient processes in order to increase quality, reduce lead times, and keep costs contained.
+          <br />
+          <br />
+          We practice sound fiscal management, insuring a strong capital base for continued investment in our capabilities. These investments include equipment upgrades, employee retention, and education in order to maintain long-term institutional health.
         </Typography>
-        <br/>
-        <Typography variant="body1">
-          We can take a process and improve it through quality, innovation, and technology.
-        </Typography>
-        <br/>
         <CallToAction
           actionText="See Our Latest Equipment"
           actionLink="/equipment"
@@ -67,7 +67,7 @@ export default function AboutPage() {
         </Typography>
         <br/>
         <Typography>
-          This is the <span color="primary">Mark of Quality</span>
+          This is the Mark of Quality
         </Typography>  
         <br/>
         <CallToAction
