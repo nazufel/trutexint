@@ -12,6 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
+// look at using getform for sending email - https://getform.io/
 export default function ContactForm() {
   const classes = useStyles();
 
