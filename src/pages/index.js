@@ -1,7 +1,6 @@
 import React from "react"
 
 import Button from '@material-ui/core/Button';
-import { Parallax } from 'react-parallax';
 import { Typography } from "@material-ui/core";
 import FrontPageLayout from "../components/frontPageLayout";
 import SEO from "../components/seo";
