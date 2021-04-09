@@ -1,11 +1,10 @@
 import React from "react"
 
 import Button from '@material-ui/core/Button';
+import { Parallax } from 'react-parallax';
 import { Typography } from "@material-ui/core";
-
-import CallToAction from '../components/callToAction';
-import FrontPageLayout from "../components/frontPageLayout"
-import SEO from "../components/seo"
+import FrontPageLayout from "../components/frontPageLayout";
+import SEO from "../components/seo";
 
 import './index.css'
 
@@ -13,24 +12,25 @@ const IndexPage = () => (
   <FrontPageLayout>
     <SEO title="Home" />
 
-    <div className="parallax-wire-edm" />
-      <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
-      <Typography variant="h3" color="primary">
-        Leaders in Precision Wire EDM
-      </Typography>
-      <Typography variant="h2" style={{ margin: 20 }}>
-        Put Our Four Generations of Experience on Your Next Project
-      </Typography>
-      <div>
-        <Button 
-            color="primary"
-            href="/about"
-            variant="contained" 
-          >
-            About Us
-          </Button>
-      </div>
+    <div class="container" style={{ textAlign: "center" }}>
+      <div className="parallax-wire-edm" style={{  marginTop: 50, marginBottom: 20 }}/>
+        <Typography variant="h3" color="primary">
+          Leaders in Precision Wire EDM
+        </Typography>
+        <Typography variant="h2" style={{ margin: 20 }}>
+          Put Our Four Generations of Experience on Your Next Project
+        </Typography>
+          <Button 
+              color="primary"
+              href="/about"
+              variant="contained" 
+            >
+              About Us
+            </Button>
     </div>
+
+
+
 
     <div className="parallax-cnc" />
     <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
