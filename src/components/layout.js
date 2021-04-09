@@ -44,7 +44,7 @@ const theme = createMuiTheme({
 const Layout = ({ children }) => {
   return (
   <ThemeProvider theme={theme}>
-    <SiteAppBar />
+    <SiteAppBar style={{ padding: 0, margin: 0 }}/>
     <Container maxWidth="lg">
       <body>
         <main style={{ padding: 0, margin: 0 }}>{children}</main>
