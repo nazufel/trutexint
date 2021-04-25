@@ -34,13 +34,13 @@ const IndexPage = () => (
       <Typography variant="h2" style={{ margin: 20 }}>
         Put Our Four Generations of Experience on Your Next Project
       </Typography>
-      <div>
+      <div style={{ marginBottom: 20 }}>
         <Button 
             color="primary"
             href="/about"
             variant="contained" 
           >
-            About Us
+            About
           </Button>
       </div>
     </div>
