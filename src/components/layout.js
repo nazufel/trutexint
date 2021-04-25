@@ -48,7 +48,9 @@ const Layout = ({ children }) => {
       <SiteAppBar/>
       <Container maxWidth="lg">
         <main>{children}</main>
-        <SubFooter/>
+        <div style={{ marginTop: 400 }}>
+          <SubFooter/>
+        </div>
       </Container>
       </body>
   </ThemeProvider>
