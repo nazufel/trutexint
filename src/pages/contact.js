@@ -24,7 +24,7 @@ const useStyles = makeStyles({
     height: 32,
     width: 32,
     marginRight: 20,
-  }
+  },
 });
 
 export default function ContactPage() {
@@ -32,7 +32,7 @@ export default function ContactPage() {
   return (
     <Layout>
       <SEO title="Contact" />
-      <Typography style={{ marginTop: 20, marginBottom: 20 }} variant="h4">
+      <Typography style={{ marginTop: 80, marginBottom: 20 }} variant="h4">
         Contact Us
       </Typography>
 

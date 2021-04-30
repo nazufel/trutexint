@@ -36,7 +36,7 @@ export default function EquipmentPage() {
   return (
     <Layout>
       <SEO title="Equipment" />
-      <Typography style={{ marginTop: 20, marginBottom: 20 }} variant="h4">
+      <Typography style={{ marginTop: 80, marginBottom: 20 }} variant="h4">
         The Best Toolmakers Need the Best Equipment
       </Typography>
 
@@ -180,12 +180,15 @@ export default function EquipmentPage() {
         </Grid>
       </Grid>
 
-      <CallToAction
-          actionText="Let Us Put Our Mark of Quality on Your Next Project"
-          actionLink="/contact"
-          buttonText="Contact Us"
-        />
-
+      <Card style={{ marginTop: 20 }}>
+          <div style={{ margin: 20 }}>
+            <CallToAction
+                actionText="Let Us Put Our Mark of Quality on Your Next Project"
+                actionLink="/contact"
+                buttonText="Contact Us"
+              />
+          </div>
+        </Card>
     </Layout>
   )
 };
