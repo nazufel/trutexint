@@ -56,7 +56,7 @@ export default function AboutPage() {
             We are a leading manufacturer of precision die components dedicated to the continuous improvement of our customers' metal forming operations. Using the latest technology, lean manufacturing, and employing highly skilled toolmakers, we provide the highest quality tooling available at competitive prices and lead times.
             <br />
             <br />
-            TRU-TEX focuses on building long term relationships with our customers for their tool and die manufacturing needs. To us, our customers are not just a line in a spread sheet. We know them by name. Our customer's success is our success. Customer satisfaction is at the core of our corporate DNA. We are constantly striving for better, more efficient processes in order to increase quality, reduce lead times, and keep costs contained.
+            TRU-TEX focuses on building long term relationships with our customers for their tool and die manufacturing needs. To us, our customers are not just a line in a spreadsheet. We know them by name. Our customer's success is our success. Customer satisfaction is at the core of our corporate DNA. We are constantly striving for better, more efficient processes in order to increase quality, reduce lead times, and keep costs contained.
             <br />
             <br />
             We practice sound fiscal management, insuring a strong capital base for continued investment in our capabilities. These investments include equipment upgrades, employee retention, and education in order to maintain long-term institutional health.
