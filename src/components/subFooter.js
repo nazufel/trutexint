@@ -22,7 +22,7 @@ function Hosting() {
     <Typography align="center" variant="body2" color="textSecondary">
       {'Designed and Hosted by '}
       <Link color="inherit" href="https://github.com/nazufel">
-        Nazufel
+        Ryan Ross
       </Link>{' '}
     </Typography>
 

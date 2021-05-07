@@ -10,8 +10,6 @@ import SEO from "../components/seo";
 import WireEdm from '../images/wire-edm-01.jpg';
 import CNCMachine from '../images/CNCMachine.jpg';
 import GrindingMachine from '../images/surfaceGrindingMachine.jpg';
-import MillingMachine from '../images/millingMachine.jpg';
-import ArcWelding from '../images/arcWelding.jpg';
 
 const useStyles = makeStyles({
   root: {
