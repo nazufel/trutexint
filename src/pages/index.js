@@ -1,11 +1,16 @@
 import React from "react";
 
 import Button from '@material-ui/core/Button';
+import { Card, CardContent, CardMedia } from '@material-ui/core';
 import { Typography } from "@material-ui/core";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import FrontPageLayout from "../components/frontPageLayout";
 import SEO from "../components/seo";
+
+import WireEdm from '../images/wire-edm-01.jpg';
+import CNCMachine from '../images/CNCMachine.jpg';
+import GrindingMachine from '../images/surfaceGrindingMachine.jpg';
+import MillingMachine from '../images/millingMachine.jpg';
+import ArcWelding from '../images/arcWelding.jpg';
 
 import './index.css'
 
@@ -13,18 +18,20 @@ const IndexPage = () => (
   <FrontPageLayout>
     <SEO title="Home" />
 
-    <div style={{  marginTop: 500, marginBottom: 300, textAlign: "center" }}>
-      <Typography variant="h3" color="primary">
-        TRU-TEX International Corporation
-      </Typography>
-      <Typography variant="h2" style={{ margin: 20 }}>
-        The Mark of Quality
-      </Typography>
+    <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: 500, marginBottom: 500}}>
+      <div>
+        <Typography variant="h3" color="primary">
+          TRU-TEX International Corporation
+        </Typography>
+      </div>
+      <br/>
+      <div>
+        <Typography variant="h2" style={{ margin: 20 }}>
+          The Mark of Quality
+        </Typography>
+      </div>
     </div>
 
-    <div style={{ textAlign: "center" }}>
-      <FontAwesomeIcon icon={ faChevronDown } style={{ marginBottom: 100, fontSize: 100}}/>
-    </div>
 
     <div class="container" style={{ textAlign: "center" }}>
     <div className="parallax-wire-edm" style={{  marginTop: 50, marginBottom: 20 }}/>
