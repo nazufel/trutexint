@@ -74,7 +74,7 @@ export default function IndexPage() {
           </Card>
         </div>
 
-        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 500 }}>
+        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
           <Card style={{ width: "75%" }}>
             <CardMedia 
               className={classes.media}
@@ -103,23 +103,33 @@ export default function IndexPage() {
           </Card>
         </div>
 
-
-        <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
-          <Typography variant="h3" color="primary">
-            Ready to Get Started?
-          </Typography>
-          <Typography variant="h2" style={{ margin: 20 }}>
-            Contact Us Today
-          </Typography>
-          <div>
-            <Button 
-                color="primary"
-                href="/contact"
-                variant="contained" 
-              >
-                Contact
-              </Button>
-          </div>
+        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 50 }}>
+          <Card style={{ width: "75%" }}>
+            <CardMedia 
+              className={classes.media}
+              image={ GrindingMachine }
+              title="Grinding Machine"
+            />
+            <CardContent>
+              <div style={{ textAlign: "center"}}>
+                <Typography variant="h3" color="primary">
+                  Ready to Get Started?
+                </Typography>
+                <Typography variant="h2" style={{ margin: 20 }}>
+                  Contact Us Today
+                </Typography>
+                <div style={{ marginBottom: 10 }}>
+                  <Button 
+                      color="primary"
+                      href="/contact"
+                      variant="contained" 
+                    >
+                      Contact
+                    </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </FrontPageLayout>
   )
