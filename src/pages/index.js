@@ -45,50 +45,64 @@ export default function IndexPage() {
         </div>
 
 
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center"}}>
+        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
           <Card style={{ width: "75%" }}>
             <CardMedia 
               className={classes.media}
               image={ WireEdm }
               title="Wire EDM"
             />
-            <div style={{ textAlign: "center"}}>
-              <Typography variant="h3" color="primary">
-                Leaders in Precision Wire EDM
-              </Typography>
-              <Typography variant="h2" style={{ margin: 20 }}>
-                Learn About Our Four Generations of Experience
-              </Typography>
-              <div style={{ marginBottom: 20 }}>
-                <Button 
-                    color="primary"
-                    href="/about"
-                    variant="contained" 
-                  >
-                    About
-                  </Button>
+            <CardContent>
+              <div style={{ textAlign: "center"}}>
+                <Typography variant="h3" color="primary">
+                  We Are Leaders in Precision Wire EDM
+                </Typography>
+                <Typography variant="h2" style={{ margin: 20 }}>
+                  Learn About Our Four Generations of Experience
+                </Typography>
+                <div style={{ marginBottom: 10 }}>
+                  <Button 
+                      color="primary"
+                      href="/about"
+                      variant="contained" 
+                    >
+                      About
+                    </Button>
+                </div>
               </div>
-            </div>
+            </CardContent>
           </Card>
         </div>
 
-        <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
-          <Typography variant="h3" color="primary">
-            We Use the Latest Technology in Tool and Die Manufacturing
-          </Typography>
-          <Typography variant="h2" style={{ margin: 20 }}>
-            Learn About Our Advanced Equipment for Your Next Project
-          </Typography>
-          <div>
-            <Button 
-                color="primary"
-                href="/equipment"
-                variant="contained" 
-              >
-                Equipment
-              </Button>
-          </div>
+        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 500 }}>
+          <Card style={{ width: "75%" }}>
+            <CardMedia 
+              className={classes.media}
+              image={ CNCMachine }
+              title="CNC Machine"
+            />
+            <CardContent>
+              <div style={{ textAlign: "center"}}>
+                <Typography variant="h3" color="primary">
+                  We Use the Latest Technology in Tool and Die Manufacturing
+                </Typography>
+                <Typography variant="h2" style={{ margin: 20 }}>
+                  Learn About Our Advanced Equipment for Your Next Project
+                </Typography>
+                <div style={{ marginBottom: 10 }}>
+                  <Button 
+                      color="primary"
+                      href="/equipment"
+                      variant="contained" 
+                    >
+                      Equipment
+                    </Button>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
+
 
         <div style={{  marginTop: 20, marginBottom: 20, textAlign: "center" }}>
           <Typography variant="h3" color="primary">
