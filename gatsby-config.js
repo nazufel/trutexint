@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `TRU-TEX International Corporation`,
     description: `Website for the TRU-TEX International Corporation`,
-    author: `@gnazufel`,
+    author: `@nazufel`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,9 +14,9 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
