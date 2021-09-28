@@ -1,15 +1,14 @@
-import React from "react";
-
+import { Card, CardContent, CardMedia, Typography } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
-import { Card, CardContent, CardMedia } from '@material-ui/core';
-import { Typography } from "@material-ui/core";
-import FrontPageLayout from "../components/frontPageLayout";
 import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import FrontPageLayout from "../components/frontPageLayout";
 import SEO from "../components/seo";
-
-import WireEdm from '../images/wire-edm-01.jpg';
 import CNCMachine from '../images/CNCMachine.jpg';
+import HeroLogo from '../images/heroLogo.jpg';
 import GrindingMachine from '../images/surfaceGrindingMachine.jpg';
+import WireEdm from '../images/wire-edm-01.jpg';
+
 
 const useStyles = makeStyles({
   root: {
@@ -26,109 +25,105 @@ export default function IndexPage() {
 
   return (
     <FrontPageLayout>
-        <SEO title="Home" />
+      <SEO title="Home" />
 
-        <div style={{ display: "flex", flexDirection: "column", alignItems: "center", marginTop: 500, marginBottom: 500}}>
-          <div>
-            <Typography variant="h3" color="primary">
-              TRU-TEX International Corporation
-            </Typography>
-          </div>
-          <br/>
-          <div>
-            <Typography variant="h2" style={{ margin: 20 }}>
-              The Mark of Quality
-            </Typography>
-          </div>
-        </div>
+      <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginTop: 100, marginBottom: 300 }}>
+        <Card style={{ width: "75%" }}>
+          <CardMedia
+            className={classes.media}
+            image={HeroLogo}
+            title="TIC Logo"
+          />
+        </Card>
+      </div>
 
 
-        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
-          <Card style={{ width: "75%" }}>
-            <CardMedia 
-              className={classes.media}
-              image={ WireEdm }
-              title="Wire EDM"
-            />
-            <CardContent>
-              <div style={{ textAlign: "center"}}>
-                <Typography variant="h3" color="primary">
-                  We Are Leaders in Precision Wire EDM
-                </Typography>
-                <Typography variant="h2" style={{ margin: 20 }}>
-                  Learn About Our Four Generations of Experience
-                </Typography>
-                <div style={{ marginBottom: 10 }}>
-                  <Button 
-                      color="primary"
-                      href="/about"
-                      variant="contained" 
-                    >
-                      About
-                    </Button>
-                </div>
+      <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
+        <Card style={{ width: "75%" }}>
+          <CardMedia
+            className={classes.media}
+            image={WireEdm}
+            title="Wire EDM"
+          />
+          <CardContent>
+            <div style={{ textAlign: "center" }}>
+              <Typography variant="h3" color="primary">
+                We Are Leaders in Precision Wire EDM
+              </Typography>
+              <Typography variant="h2" style={{ margin: 20 }}>
+                Learn About Our Four Generations of Experience
+              </Typography>
+              <div style={{ marginBottom: 10 }}>
+                <Button
+                  color="primary"
+                  href="/about"
+                  variant="contained"
+                >
+                  About
+                </Button>
               </div>
-            </CardContent>
-          </Card>
-        </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
-        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
-          <Card style={{ width: "75%" }}>
-            <CardMedia 
-              className={classes.media}
-              image={ CNCMachine }
-              title="CNC Machine"
-            />
-            <CardContent>
-              <div style={{ textAlign: "center"}}>
-                <Typography variant="h3" color="primary">
-                  We Use the Latest Technology in Tool and Die Manufacturing
-                </Typography>
-                <Typography variant="h2" style={{ margin: 20 }}>
-                  Learn About Our Advanced Equipment for Your Next Project
-                </Typography>
-                <div style={{ marginBottom: 10 }}>
-                  <Button 
-                      color="primary"
-                      href="/equipment"
-                      variant="contained" 
-                    >
-                      Equipment
-                    </Button>
-                </div>
+      <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 300 }}>
+        <Card style={{ width: "75%" }}>
+          <CardMedia
+            className={classes.media}
+            image={CNCMachine}
+            title="CNC Machine"
+          />
+          <CardContent>
+            <div style={{ textAlign: "center" }}>
+              <Typography variant="h3" color="primary">
+                We Use the Latest Technology in Tool and Die Manufacturing
+              </Typography>
+              <Typography variant="h2" style={{ margin: 20 }}>
+                Learn About Our Advanced Equipment for Your Next Project
+              </Typography>
+              <div style={{ marginBottom: 10 }}>
+                <Button
+                  color="primary"
+                  href="/equipment"
+                  variant="contained"
+                >
+                  Equipment
+                </Button>
               </div>
-            </CardContent>
-          </Card>
-        </div>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
 
-        <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 50 }}>
-          <Card style={{ width: "75%" }}>
-            <CardMedia 
-              className={classes.media}
-              image={ GrindingMachine }
-              title="Grinding Machine"
-            />
-            <CardContent>
-              <div style={{ textAlign: "center"}}>
-                <Typography variant="h3" color="primary">
-                  Ready to Get Started?
-                </Typography>
-                <Typography variant="h2" style={{ margin: 20 }}>
-                  Contact Us Today
-                </Typography>
-                <div style={{ marginBottom: 10 }}>
-                  <Button 
-                      color="primary"
-                      href="/contact"
-                      variant="contained" 
-                    >
-                      Contact
-                    </Button>
-                </div>
+      <div style={{ alignItems: "center", display: "flex", flexDirection: "column", marginBottom: 50 }}>
+        <Card style={{ width: "75%" }}>
+          <CardMedia
+            className={classes.media}
+            image={GrindingMachine}
+            title="Grinding Machine"
+          />
+          <CardContent>
+            <div style={{ textAlign: "center" }}>
+              <Typography variant="h3" color="primary">
+                Ready to Get Started?
+              </Typography>
+              <Typography variant="h2" style={{ margin: 20 }}>
+                Contact Us Today
+              </Typography>
+              <div style={{ marginBottom: 10 }}>
+                <Button
+                  color="primary"
+                  href="/contact"
+                  variant="contained"
+                >
+                  Contact
+                </Button>
               </div>
-            </CardContent>
-          </Card>
-        </div>
-      </FrontPageLayout>
+            </div>
+          </CardContent>
+        </Card>
+      </div>
+    </FrontPageLayout>
   )
 };

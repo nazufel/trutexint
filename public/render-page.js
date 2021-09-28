@@ -81262,18 +81262,18 @@ module.exports = JSON.parse("{\"data\":{\"site\":{\"siteMetadata\":{\"title\":\"
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FrontPageLayout; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
-/* harmony import */ var fontsource_roboto__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! fontsource-roboto */ "./node_modules/fontsource-roboto/index.css");
-/* harmony import */ var fontsource_roboto__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(fontsource_roboto__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var fontsource_roboto__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! fontsource-roboto */ "./node_modules/fontsource-roboto/index.css");
+/* harmony import */ var fontsource_roboto__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(fontsource_roboto__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./layout.css */ "./src/components/layout.css");
 /* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _subFooter__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./subFooter */ "./src/components/subFooter.js");
-/* harmony import */ var _siteAppBar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./siteAppBar */ "./src/components/siteAppBar.js");
+/* harmony import */ var _siteAppBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./siteAppBar */ "./src/components/siteAppBar.js");
+/* harmony import */ var _subFooter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./subFooter */ "./src/components/subFooter.js");
 /**
  * Layout component that queries for data
  * with Gatsby's useStaticQuery component
@@ -81288,7 +81288,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["createMuiTheme"])({
+const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["createMuiTheme"])({
   typography: {
     fontFamily: ["Roboto"].join(','),
     h2: {
@@ -81298,7 +81298,7 @@ const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["crea
   },
   palette: {
     primary: {
-      main: '#8d3f6f'
+      main: '#054d9f'
     },
     secondary: {
       main: '#cacaca'
@@ -81311,17 +81311,17 @@ const theme = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_3__["crea
 function FrontPageLayout({
   children
 }) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["ThemeProvider"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["ThemeProvider"], {
     theme: theme
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_siteAppBar__WEBPACK_IMPORTED_MODULE_7__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("body", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_siteAppBar__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("body", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("main", {
     style: {
       padding: 0,
       margin: 0
     }
-  }, children)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_subFooter__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+  }, children)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement(_subFooter__WEBPACK_IMPORTED_MODULE_7__["default"], null));
 }
 FrontPageLayout.propTypes = {
-  children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired
+  children: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired
 };
 
 /***/ }),
@@ -81643,6 +81643,17 @@ module.exports = __webpack_require__.p + "static/CNCMachine-6e4b775b55a453ababfa
 
 /***/ }),
 
+/***/ "./src/images/heroLogo.jpg":
+/*!*********************************!*\
+  !*** ./src/images/heroLogo.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/heroLogo-704495ed27e3e74ae2de197e4877914c.jpg";
+
+/***/ }),
+
 /***/ "./src/images/surfaceGrindingMachine.jpg":
 /*!***********************************************!*\
   !*** ./src/images/surfaceGrindingMachine.jpg ***!
@@ -81700,19 +81711,21 @@ const NotFoundPage = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___defau
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return IndexPage; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
 /* harmony import */ var _material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/core/Button */ "./node_modules/@material-ui/core/esm/Button/index.js");
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/esm/index.js");
-/* harmony import */ var _components_frontPageLayout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/frontPageLayout */ "./src/components/frontPageLayout.js");
-/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var _material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/styles */ "./node_modules/@material-ui/core/esm/styles/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_frontPageLayout__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/frontPageLayout */ "./src/components/frontPageLayout.js");
 /* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-/* harmony import */ var _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/wire-edm-01.jpg */ "./src/images/wire-edm-01.jpg");
-/* harmony import */ var _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/CNCMachine.jpg */ "./src/images/CNCMachine.jpg");
-/* harmony import */ var _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../images/CNCMachine.jpg */ "./src/images/CNCMachine.jpg");
+/* harmony import */ var _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _images_heroLogo_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../images/heroLogo.jpg */ "./src/images/heroLogo.jpg");
+/* harmony import */ var _images_heroLogo_jpg__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_images_heroLogo_jpg__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _images_surfaceGrindingMachine_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../images/surfaceGrindingMachine.jpg */ "./src/images/surfaceGrindingMachine.jpg");
 /* harmony import */ var _images_surfaceGrindingMachine_jpg__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_images_surfaceGrindingMachine_jpg__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../images/wire-edm-01.jpg */ "./src/images/wire-edm-01.jpg");
+/* harmony import */ var _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_9__);
 
 
 
@@ -81723,7 +81736,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["makeStyles"])({
+const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_2__["makeStyles"])({
   root: {
     maxWidth: 345,
     height: 480
@@ -81734,126 +81747,130 @@ const useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_4__["
 });
 function IndexPage() {
   const classes = useStyles();
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_frontPageLayout__WEBPACK_IMPORTED_MODULE_3__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_frontPageLayout__WEBPACK_IMPORTED_MODULE_4__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_seo__WEBPACK_IMPORTED_MODULE_5__["default"], {
     title: "Home"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
+      alignItems: "center",
       display: "flex",
       flexDirection: "column",
-      alignItems: "center",
-      marginTop: 500,
-      marginBottom: 500
+      marginTop: 100,
+      marginBottom: 300
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
-    variant: "h3",
-    color: "primary"
-  }, "TRU-TEX International Corporation")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
-    variant: "h2",
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Card"], {
     style: {
-      margin: 20
+      width: "75%"
     }
-  }, "The Mark of Quality"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardMedia"], {
+    className: classes.media,
+    image: _images_heroLogo_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+    title: "TIC Logo",
+    style: {
+      height: "100%",
+      width: "100%"
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       alignItems: "center",
       display: "flex",
       flexDirection: "column",
       marginBottom: 300
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Card"], {
     style: {
       width: "75%"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardMedia"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardMedia"], {
     className: classes.media,
-    image: _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
+    image: _images_wire_edm_01_jpg__WEBPACK_IMPORTED_MODULE_9___default.a,
     title: "Wire EDM"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       textAlign: "center"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h3",
     color: "primary"
-  }, "We Are Leaders in Precision Wire EDM"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, "We Are Leaders in Precision Wire EDM"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h2",
     style: {
       margin: 20
     }
-  }, "Learn About Our Four Generations of Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Learn About Our Four Generations of Experience"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       marginBottom: 10
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     color: "primary",
     href: "/about",
     variant: "contained"
-  }, "About")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "About")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       alignItems: "center",
       display: "flex",
       flexDirection: "column",
       marginBottom: 300
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Card"], {
     style: {
       width: "75%"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardMedia"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardMedia"], {
     className: classes.media,
-    image: _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
+    image: _images_CNCMachine_jpg__WEBPACK_IMPORTED_MODULE_6___default.a,
     title: "CNC Machine"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       textAlign: "center"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h3",
     color: "primary"
-  }, "We Use the Latest Technology in Tool and Die Manufacturing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, "We Use the Latest Technology in Tool and Die Manufacturing"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h2",
     style: {
       margin: 20
     }
-  }, "Learn About Our Advanced Equipment for Your Next Project"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Learn About Our Advanced Equipment for Your Next Project"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       marginBottom: 10
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     color: "primary",
     href: "/equipment",
     variant: "contained"
-  }, "Equipment")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Equipment")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       alignItems: "center",
       display: "flex",
       flexDirection: "column",
       marginBottom: 50
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Card"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Card"], {
     style: {
       width: "75%"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardMedia"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardMedia"], {
     className: classes.media,
     image: _images_surfaceGrindingMachine_jpg__WEBPACK_IMPORTED_MODULE_8___default.a,
     title: "Grinding Machine"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardContent"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       textAlign: "center"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h3",
     color: "primary"
-  }, "Ready to Get Started?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_2__["Typography"], {
+  }, "Ready to Get Started?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["Typography"], {
     variant: "h2",
     style: {
       margin: 20
     }
-  }, "Contact Us Today"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Contact Us Today"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       marginBottom: 10
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
     color: "primary",
     href: "/contact",
     variant: "contained"
