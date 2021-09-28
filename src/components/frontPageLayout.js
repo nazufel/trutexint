@@ -5,16 +5,16 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
-import React from "react";
-import PropTypes from "prop-types"
-
 import { ThemeProvider } from '@material-ui/core';
 import { createMuiTheme } from '@material-ui/core/styles';
 import 'fontsource-roboto';
-
+import PropTypes from "prop-types";
+import React from "react";
 import './layout.css';
-import SubFooter from './subFooter';
 import SiteAppBar from './siteAppBar';
+import SubFooter from './subFooter';
+
+
 
 const theme = createMuiTheme({
   typography: {
@@ -28,7 +28,7 @@ const theme = createMuiTheme({
   },
   palette: {
     primary: {
-      main: '#8d3f6f'
+      main: '#054d9f'
     },
     secondary: {
       main: '#cacaca'
@@ -41,12 +41,12 @@ const theme = createMuiTheme({
 
 export default function FrontPageLayout({ children }) {
   return (
-    <ThemeProvider theme={ theme }>
+    <ThemeProvider theme={theme}>
       <SiteAppBar />
       <body>
-        <main style={{ padding: 0, margin: 0 }}>{ children }</main>
+        <main style={{ padding: 0, margin: 0 }}>{children}</main>
       </body>
-      <SubFooter/>
+      <SubFooter />
     </ThemeProvider>
   );
 }

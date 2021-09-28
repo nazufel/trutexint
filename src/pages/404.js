@@ -1,10 +1,7 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import MillingMachine from '../images/millingMachine.jpg';
-import ArcWelding from '../images/arcWelding.jpg';
 
 const NotFoundPage = () => (
   <Layout>
