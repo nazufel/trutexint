@@ -1,20 +1,17 @@
-import React from "react"
-
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid'
+import { faAt, faFax, faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAt } from "@fortawesome/free-solid-svg-icons";
-import { faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
-import { faFax } from "@fortawesome/free-solid-svg-icons";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { Typography } from "@material-ui/core";
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+import Grid from '@material-ui/core/Grid';
 import Link from '@material-ui/core/Link';
+import { makeStyles } from '@material-ui/core/styles';
+import React from "react";
+import ContactForm from '../components/contactForm';
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 
-import ContactForm from '../components/contactForm'
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Typography } from "@material-ui/core";
+
 
 const useStyles = makeStyles({
   root: {
@@ -44,42 +41,42 @@ export default function ContactPage() {
                 We Want to Talk to You
               </Typography>
             </CardContent>
-            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start"}}>
-              <FontAwesomeIcon icon={ faPhone } className={classes.icon}/>
+            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start" }}>
+              <FontAwesomeIcon icon={faPhone} className={classes.icon} />
               <Typography variant="h6">
                 513-825-8844
               </Typography>
             </CardContent>
-            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start"}}>
-              <FontAwesomeIcon icon={ faAt } className={classes.icon}/>
+            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start" }}>
+              <FontAwesomeIcon icon={faAt} className={classes.icon} />
               <Typography variant="h6">
                 info@trutexint.com
               </Typography>
             </CardContent>
-            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start"}}>
-              <FontAwesomeIcon icon={ faMapMarkerAlt } className={classes.icon}/>
+            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start" }}>
+              <FontAwesomeIcon icon={faMapMarkerAlt} className={classes.icon} />
               <Typography variant="h6">
                 <Link color='inherit' href="https://goo.gl/maps/3FVEKB7WHeJPrjzUA">
                   <u>11050 Southland Road Cincinnati, Ohio 45240</u>
                 </Link>
               </Typography>
             </CardContent>
-            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start"}}>
-              <FontAwesomeIcon icon={ faFax } className={classes.icon}/>
+            <CardContent style={{ display: "flex", flexDirection: "row", justifyItems: "start" }}>
+              <FontAwesomeIcon icon={faFax} className={classes.icon} />
               <Typography variant="h6">
-              513-825-8904
+                513-825-8904
               </Typography>
             </CardContent>
           </Card>
         </Grid>
         <Grid container item xs={12} sm={6} justify="float-center">
-        <Card>
-          <CardContent>
-            <Typography color="primary" style={{ marginTop: 15 }} variant="h5">
-              Send Us a Message!
-            </Typography>
-            <ContactForm />
-          </CardContent>
+          <Card>
+            <CardContent>
+              <Typography color="primary" style={{ marginTop: 15 }} variant="h5">
+                Send Us a Message!
+              </Typography>
+              <ContactForm />
+            </CardContent>
           </Card>
         </Grid>
       </Grid>

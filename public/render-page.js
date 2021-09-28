@@ -81764,11 +81764,7 @@ function IndexPage() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_material_ui_core__WEBPACK_IMPORTED_MODULE_0__["CardMedia"], {
     className: classes.media,
     image: _images_heroLogo_jpg__WEBPACK_IMPORTED_MODULE_7___default.a,
-    title: "TIC Logo",
-    style: {
-      height: "100%",
-      width: "100%"
-    }
+    title: "TIC Logo"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     style: {
       alignItems: "center",
